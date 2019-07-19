@@ -3,7 +3,9 @@ def fizzbuzz(number)
     "fizzbuzz"
   elsif number % 3 == 0
     "fizz"
-  else
+  elsif number % 5 == 0
     "buzz"
+  else
+    number
   end
 end
